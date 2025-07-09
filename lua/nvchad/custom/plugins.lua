@@ -58,6 +58,6 @@ local plugins = {
         "codelldb",
       }
     }
-  }
+  },
 }
 return plugins

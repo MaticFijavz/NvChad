@@ -1,9 +1,6 @@
 -- All plugins have lazy=true by default,to load a plugin on startup just lazy=false
 -- List of all default plugins & their definitions
 local default_plugins = {
-
-  "nvim-lua/plenary.nvim",
-
   {
     "NvChad/base46",
     branch = "v2.0",
@@ -16,6 +13,14 @@ local default_plugins = {
     "NvChad/ui",
     branch = "v2.0",
     lazy = false,
+  },
+  {
+    "Shatur/neovim-tasks",
+    lazy=false,
+  },
+  {
+    "nvim-lua/plenary.nvim",
+    lazy=false,
   },
 
   {
