@@ -1,4 +1,4 @@
 git clone -b v2.0 https://github.com/NvChad/NvChad ~/.config/nvim --depth 1
 git clone  https://github.com/MaticFijavz/NvChad.git ~/.config/nvimBackup --depth 1
 rm -rf ~/.config/nvim/lua/*
-mv ~/.config/nvimBackup/lua/NvChad/* ~/.config/nvim/lua/
+mv ~/.config/nvimBackup/lua/nvchad/* ~/.config/nvim/lua/
